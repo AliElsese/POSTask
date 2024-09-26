@@ -58,7 +58,7 @@ const userRegister = (event) => {
     }
     localStorage.setItem("users", JSON.stringify(usersarry));
     alert("Registered Successfully!");
-    window.location.href = './signin.html';
+    window.location.href = './index.html';
 };
 
 const userLogin = (event) => {
